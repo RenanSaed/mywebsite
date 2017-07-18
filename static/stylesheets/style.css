@@ -1,0 +1,81 @@
+body {
+	background-color: hotpink;
+}
+
+
+.nav_bar{
+	border: solid 10px;
+	padding:20px;
+
+
+}
+li a{
+	text-decoration: none ;
+
+}
+
+.nav_bar li{
+	display: inline;
+	font-size: 25px ;
+	padding: 20px;
+}
+
+.nav_bar li:hover{
+	background-color:grey;
+
+
+}
+
+
+h1{
+	color: white;
+	text-align: center;
+	font-size:35px;
+
+}
+.center{
+	height:250px;
+	width  :1000px;
+	margin :auto;
+	border:solid 10px black;
+
+
+}
+.image {
+	border-radius:50%;
+	border:solid 10px lightblue;
+	margin:20px;
+
+}
+.singleimage{
+	height:250px;
+	width  :200px;
+	margin :auto;
+	
+
+}
+.quotes{
+	height:150px;
+	width  :800px;
+	margin :auto;
+	border:solid black 10px;
+
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-size:25px;
+}
+h4{
+	color: white;
+	text-align: center;
+	font-size:25px;
+
+
+ }
