@@ -1,5 +1,5 @@
 body {
-	background-color: hotpink;
+	background-color: lightblue;
 }
 
 
@@ -43,7 +43,7 @@ h1{
 }
 .image {
 	border-radius:50%;
-	border:solid blue 10px ;
+	border:solid 10px lightblue;
 	margin:20px;
 
 }
@@ -76,4 +76,4 @@ h4{
 	color: white;
 	text-align: center;
 	font-size:25px;
- }
+ 

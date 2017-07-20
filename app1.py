@@ -1,4 +1,4 @@
-from flask import Flask, render_template 
+from flask import Flask, render_template , request
 import random
 app = Flask(__name__)
 
@@ -20,7 +20,17 @@ def writing_page():
 	"better safe than sorry","if you want peace be prepared for war"]
 	return render_template("index.html",quotes=random.choice(quotes))
 
+@app.route("/CONTACT")
+def Contact_page():
+	return render_template ("contact.html")
+@app.route("/contact_response", methods=["POST"])
+def form_res():
+	user_firstname =request.form["firstname"]
+	user_lastname =request.form["lastname"]
+	user_messege =request.form["messege"]
+	user_gender =request.form["gender"]
 
+	return  render_template ( "form_data.html", firstname=user_firstname,lastname=user_lastname,messege=user_messege,gender=user_gender)
 
 if __name__=="__main__":
 	app.run()

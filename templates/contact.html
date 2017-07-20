@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+
+{%block head%}
+	<link rel="stylesheet" type="text/css" href="../static/stylesheets/contact_style.css">
+
+{%endblock%}
+
+
+
+{%block body%}
+
+<h3> contact</h3>
+{
+<form action="{{ url_for('form_res')}}" method ="post">
+	First name:<br>
+	<input type="text" name="firstname"><br>
+	Last name:<br>
+	<input type="text" name="lastname"><br>
+	Messege:<br>
+	<textarea  class="messege"type="text" name="messege"></textarea><br>
+	<input type="submit" name="submit"value="submit"><br>
+	Gender:<br>
+	<input type="radio" name="gender" value="male"> Male<br>
+	<input type="radio" name="gender" value="female"> Female
+
+
+
+
+
+
+</form>
+{%endblock%}
+
