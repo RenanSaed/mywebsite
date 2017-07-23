@@ -1,11 +1,19 @@
 body {
 	background-color: hotpink;
+
+} 
+h1{
+	color: black;
+	text-align: center;
+	font-size:35px;
+
 }
 
 
 .nav_bar{
 	border: solid 10px;
 	padding:20px;
+	margin :auto;
 
 
 }
@@ -17,7 +25,8 @@ li a{
 .nav_bar li{
 	display: inline;
 	font-size: 25px ;
-	padding: 20px;
+	padding: 10px;
+	width:10px; 
 }
 
 .nav_bar li:hover{
@@ -25,25 +34,19 @@ li a{
 
 
 }
-
-
-h1{
-	color: white;
-	text-align: center;
-	font-size:35px;
-
-}
 .center{
 	height:250px;
-	width  :1000px;
+	width  : 1100px;
 	margin :auto;
-	border:solid 10px black;
 
+}
+.photogarphies{
+	width: 1150px;
+    margin: auto;
 
 }
 .image {
 	border-radius:50%;
-	border:solid blue 10px ;
 	margin:20px;
 
 }
@@ -51,29 +54,34 @@ h1{
 	height:250px;
 	width  :200px;
 	margin :auto;
-	
+
 
 }
 .quotes{
 	height:150px;
 	width  :800px;
 	margin :auto;
+
+}
+
+.paintings{
+	width: 1150px;
+    margin: auto;
+}
+
+.border{
 	border:solid black 10px;
 
 }
 
+
 h2{
-	color: white;
+	color: black;
 	text-align: center;
 }
 
 h3{
-	color: white;
+	color: black;
 	text-align: center;
 	font-size:25px;
 }
-h4{
-	color: white;
-	text-align: center;
-	font-size:25px;
- }
